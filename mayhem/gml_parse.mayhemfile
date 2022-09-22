@@ -1,0 +1,7 @@
+project: shadow
+target: gml-parse
+
+cmds:
+  - cmd: /gml_parse
+  - cmd: /gml_parse_no_inst @@
+    libfuzzer: false
